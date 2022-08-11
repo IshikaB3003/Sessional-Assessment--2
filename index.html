@@ -30,10 +30,10 @@
 <body>
 
 
+	<img src="project/new1.jpg" alt="Logo" style="width:358px;height:150px;">
 
-
-    <div id = "header-div" class = "div1">
-		<img src = "project/finallogo.jpg" width="25%"  alt="Person Management"></img>
+    <!-- <div id = "header-div" class = "div1">
+		<img src = "project/new1.jpg" width="25%"  alt="Person Management"></img> -->
 		<!-- <input type = "text" placeholder = "Search"> -->
         
 	</div>     
@@ -51,10 +51,10 @@
 	<div class = "navbar" id = "menudropdown">
 	
 		<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
-		<a href = "main-index.html">Home</a>
-		<a href = "#maindivslider">Form</a>
-		<a href = "contact.html">API Section</a>
-		<a href = "#latest-games">Footer</a>
+		<a href = "index.html">Home</a>
+		<a href = "#title">Form</a>
+		<a href = "#cardid">API Section</a>
+		<a href = "#footer2">Footer</a>
 
 		<a href = "https://www.facebook.com/" class = "fa fa-facebook"></a>
 		<a href = "https://twitter.com/?lang=en" class = "fa fa-twitter"></a>
@@ -69,56 +69,90 @@
 
 
 
+
+<!-- 
+  <div class="card">
+	<img src="project/Arvo Phone Backgrounds and Wallpapers - Arvo Wear.jpg" alt="Avatar" style="width: 245px;height: 225px; margin-left: 35%;">
+	<div class="cardcontainer">
+	  <h4><b>John Doe</b></h4>
+	  <p>Architect & Engineer</p>
+	</div>
+  </div>
+
+
+  <div class="card">
+	<img src="project/Arvo Phone Backgrounds and Wallpapers - Arvo Wear.jpg" alt="Avatar" style="width: 245px;height: 225px; margin-left: 35%;">
+	<div class="cardcontainer">
+	  <h4><b>John Doe</b></h4>
+	  <p>Architect & Engineer</p>
+	</div>
+  </div>
+
+
+  <div class="card">
+	<img src="project/Arvo Phone Backgrounds and Wallpapers - Arvo Wear.jpg" alt="Avatar" style="width: 245px;height: 225px; margin-left: 35%;"> 
+	<div class="cardcontainer">
+	  <h4><b>John Doe</b></h4>
+	  <p>Architect & Engineer</p>
+	</div>
+  </div> -->
+
+
+
+
+
+
+
     
 <!-- FORM -->
 
 <div class="container">
-    <h1 id="title"><i class="fa-brands fa-wpforms"></i>Employee Information</h1>
+    <h1 id="title" style="color:black;" ><b>EMPLOYEE INFORMATION</b></h1>
     <!-- <p id="description">Fill in the following fields, those marked with * are required.</p> -->
     <form id="survey-form">
         <!-- Name, email and age -->
-        <h2>Personal details</h2>
+        <h2 style="color:black;"><b>Personal details</b></h2>
         <fieldset>
-            <label id="id-label">Id <strong>(*)</strong><input type="number" id="id" required
+            <label id="id-label">Id <strong>(*)</strong><input type="number" style="background-color: rgb(214, 249, 253);" id="id" required
                 placeholder="Emp id" /></label>
-            <label id="name-label">Name <strong>(*)</strong><input type="text" id="name" required
+            <label id="name-label">Name <strong>(*)</strong><input type="text" style="background-color: rgb(214, 249, 253);" id="name" required
                     placeholder="Emp Name" /></label>
-            <label id="username-label">Username <input type="text" id="username" 
+            <label id="username-label">Username <input type="text" style="background-color: rgb(214, 249, 253);" id="username" 
                     placeholder="Emp Username" /></label>
-            <label id="email-label">Email <strong>(*)</strong><input type="email" id="email" required
+            <label id="email-label">Email <strong>(*)</strong><input type="email" style="background-color: rgb(214, 249, 253);" id="email" required
                     placeholder="Emp email" /></label>
             
         </fieldset>
         <!-- Address Details -->
-        <h2>Address Details</h2>
+        <h2 style="color:black;"><b>Address Details</b></h2>
         <fieldset>
-            <label id="street-label">Street <strong>(*)</strong><input type="text" id="street" required
+            <label id="street-label">Street <strong>(*)</strong><input type="text" style="background-color: rgb(214, 249, 253);" id="street" required
                 placeholder="Emp Street" /></label>
-            <label id="suite-label">Suite<strong>(*)</strong><input type="suite" id="suite" required
+            <label id="suite-label">Suite<strong>(*)</strong><input type="suite" style="background-color: rgb(214, 249, 253);" id="suite" required
                     placeholder="Emp Suite" /></label>
-            <label id="city-label">City <input type="text" id="city" 
+            <label id="city-label">City <input type="text" style="background-color: rgb(214, 249, 253);" id="city" 
                     placeholder="Emp City" /></label>
-            <label id="zipcode-label">Zipcode <strong>(*)</strong><input type="zipcode" id="zipcpde" required
+            <label id="zipcode-label">Zipcode <strong>(*)</strong><input type="zipcode" style="background-color: rgb(214, 249, 253);" id="zipcpde" required
                     placeholder="Emp Zipcode" /></label>
-            <label id="geo-label">Geographical Location <strong>(*)</strong><input type="text" id="geo" required
+            <label id="geo-label">Geographical Location <strong>(*)</strong><input type="text" style="background-color: rgb(214, 249, 253);" id="geo" required
                     placeholder="Emp Geo" /></label>
             <!-- <label id="street-label">Street <strong>(*)</strong><input type="text" id="street" required
                     placeholder="Street" /></label> -->
             
         </fieldset>
         <!-- Additional Information -->
-        <h2>Other Details</h2>
+        <h2 style="color:black;"><b>Other Details</b></h2>
         <fieldset>
-            <label id="phone-label">Phone <strong>(*)</strong><input type="number" id="phone" required
+            <label id="phone-label">Phone <strong>(*)</strong><input type="number" style="background-color: rgb(214, 249, 253);" id="phone" required
                 placeholder="Phone" /></label>
-            <label id="website-label">Website <strong>(*)</strong><input type="text" id="website" required
+            <label id="website-label">Website <strong>(*)</strong><input type="text" style="background-color: rgb(214, 249, 253);" id="website" required
                 placeholder="Website" /></label>
-            <label id="companyname-label">Company Name <strong>(*)</strong><input type="text" id="companyname" required
+            <label id="companyname-label">Company Name <strong>(*)</strong><input type="text" style="background-color: rgb(214, 249, 253);" id="companyname" required
                 placeholder="Company Name" /></label>
-            <label id="catchphrase-label">Catchphrase <strong>(*)</strong><input type="text" id="catchphrase" required
+            <label id="catchphrase-label">Catchphrase <strong>(*)</strong><input type="text" style="background-color: rgb(214, 249, 253);" id="catchphrase" required
                 placeholder="Catchphrase" /></label>
-            <label id="bs-label">bs <strong>(*)</strong><input type="text" id="bs" required
-                    placeholder="" /></label>
+            <label id="bs-label">bs <strong>(*)</strong><input type="text" style="background-color: rgb(214, 249, 253);" id="bs" required
+                    placeholder="bs" /></label>
             <!-- <label>Provide a bio <strong>(*)</strong>:
                 <textarea name="bio" rows="3" cols="30" placeholder="It all started..." required></textarea>
             </label> -->
@@ -133,7 +167,27 @@
 
 
 
+<!--DATA FETCH CARDS-->
 
+
+
+
+<button class="button button1"><b>PREVIOUS</b></button>
+
+
+  <div class="card" id="cardid" style="background-color:rgb(214, 249, 253)">
+	<p>Name:</p>
+	<p>Email:</p>
+	<p>City:</p>
+	<p>Website:</p>
+	<p>Company Name:</p>
+
+   
+	<!-- <p><button>Contact</button></p> -->
+  </div>
+
+  
+  <button class="button button2"><b>NEXT</b></button>
 
 
 
@@ -153,17 +207,17 @@
 
 			<div class = "footer-left">
 			
-				<h3>Person Management</h3>
+				<h3><b>Person Management</b></h3>
 				
 				<p class = "footer-links">
 				
-					<a href = "#">Policies</a>
+					<a href = "#title">Policies</a>
 				·
-					<a href = "#">Contact Us</a>
+					<a href = "https://mail.google.com">Contact Us</a>
 				·
-					<a href = "#">Cookies, privacy and terms</a>
+					<a href = "#title">Cookies, privacy and terms</a>
 				·
-					<a href = "#">Privacy Center</a>
+					<a href = "#cardid">Privacy Center</a>
 				·
 					<!-- <a href = "#">Accessibility</a>
 				·
