@@ -92,9 +92,7 @@ function loadXMLDoc() {
 		var html = '<table>';
 		  html += '<tr>';
 		  for( var j in data[0] ) {
-		  if(j==="address"){html += '<td>' + "city" + '</td>';}else{
-			  html += '<th>' + j + '</th>';
-			 }
+		  	html += '<th>' + j + '</th>';
 		  }
 		  html += '</tr>';
 		  for( var i = 0; i < data.length; i++) {
@@ -104,7 +102,7 @@ function loadXMLDoc() {
 				  if(j==="address"){html += '<td>' + data[i][j].city + '</td>';}
 				  else if(j==="company"){html += '<td>' + data[i][j].name + '</td>';}
 				  else{
-					  html += '<td>' + data[i][j] + 						'</td>';
+					  html += '<td>' + data[i][j] + '</td>';
 					  }
 			  }
 			  html += '</tr>';

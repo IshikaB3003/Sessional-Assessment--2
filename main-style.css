@@ -382,23 +382,20 @@ input[type="submit"]:active {
     
     
     /*Button for api*/
-    #emptable{
+    #emptable {
         border: none;
         outline: 0;
         display: inline-block;
         padding: 8px;
         color: black;
-        background-color:rgb(66, 213, 213);
+        background-color: rgb(66, 213, 213);
         text-align: center;
         cursor: pointer;
-        width: 15%;
-        border-radius: 6px;
+        width: 33%;
+        border-radius: 16px;
         font-size: 18px;
-
-
-
+        margin: 3%;
     }
-
     
     
     
@@ -418,19 +415,24 @@ input[type="submit"]:active {
       } */
     
       .card {
-        box-shadow: 0 4px 8px 0 grey;
-        max-width: 300px;
-        margin: auto;
-        font-family: arial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+        border-radius: 4px;
+      }
+
+      .table_content{
+        margin:1%;
       }
       
-      .title {
-        color: black;
-        font-size: 18px;
+      .table_content > th, td {
+        border-bottom: 1px solid #ddd;
+        padding: 2% 4% 2%;
       }
       
+
       button {
-        
         border: none;
         outline: 0;
         display: inline-block;
